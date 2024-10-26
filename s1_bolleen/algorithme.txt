@@ -1,0 +1,18 @@
+Exercice 1 :
+Debut
+    # Une foncion saisie_fonction_logique qui contient🔰 :
+        - nombre_variables <- demander à l'utilisateur de entrer une nombre de variable utiliser dans le tableau de verité [exemple: 3]
+        - fonction_logique <- demander à l'utilisateur de entrer l'expression de la fonction logique du tableau [exemple: (a and b) or (not b and c) or (a and not c)]
+    # Une foncion verite qui utilise en parametre  le nombre_variables et fonction_logique et qui contient🔰 :
+        - tableau de vérité avec :
+            - header est l'entête du tableau de vérité dont on affiche le nom du variable utiliser
+            - row continet tous les valeur true et false qui est convertir en 1 et 0 respectivement. Ainsi les valeurs sont depend de nombre de variable entrer par l'utilisateur grace à la fonction generate_truth_values qu'on crée plus tard
+        - fX qui evalue le fonction_logique entrer par l'utilisateur et qui affiche dans le tableau de vérité
+        - forme canonique dont :
+            - si fX <- true ou 1 alors ajouter le valeur de fX dans form_canonique_1
+            - sinon alors ajouter le valeur de fX dans form_canonique_2
+    # Une foncion operator qui utilise en parametre le nombre_variables et qui contient deux condition🔰 :
+        - si nombre_variables <- 2 alors : afficher simplement ab et ¬ba
+        - sinon si nombre_variables <- 3 alors : afficher ab, ¬bc et a¬c
+        - sinon n'affiche rien
+Fin
